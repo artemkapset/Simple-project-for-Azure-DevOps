@@ -23,6 +23,12 @@ namespace Tests
         }
 
         [Test]
+        public void Test3()
+        {
+            Assert.IsTrue(false);
+        }
+
+        [Test]
         public void IsBoughtBy_UserIsCustomer_ReturnTrue()
         {
             var bought = new Bought();
